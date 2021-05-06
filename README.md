@@ -21,6 +21,7 @@ Read on for more info.
 
 - [Requirements](#requirements)
 - [Installation](#installation)
+    - [Debian Packaging](#debian-packaging)
 - [Usage](#usage)
 - [Description](#description)
 - [Examples](#examples)
@@ -47,6 +48,14 @@ Read on for more info.
     pip3 install ffmpeg-normalize
 
 Or download this repository, then run `pip install .`.
+    
+### Debian Packaging
+
+- `Install package python-stdeb` and then execute
+
+- `python setup.py --command-packages=stdeb.command bdist_deb`
+
+- `And your DEB is ready!` [More information on stdeb](http://pypi.python.org/pypi/stdeb)
 
 ## Usage
 
