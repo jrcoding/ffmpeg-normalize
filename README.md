@@ -53,7 +53,7 @@ Or download this repository, then run `pip install .`.
 
 - `Install package python-stdeb` and then execute
 
-- `python setup.py --command-packages=stdeb.command bdist_deb`
+- `python3 setup.py --command-packages=stdeb.command bdist_deb`
 
 - `And your DEB is ready!` [More information on stdeb](http://pypi.python.org/pypi/stdeb)
 
